@@ -1,0 +1,80 @@
+#scrollPics {
+	height: 500px;
+	width: 100%;
+	margin-bottom: 10px;
+	overflow: hidden;
+	position: relative;
+}
+
+#scrollPics  img {
+	height: 500px;
+	width: 100%;
+}
+
+.slider {
+	margin: 0 auto;
+}
+
+.num {
+	position: absolute;
+	right: 730px;
+	bottom: 9px;
+}
+
+#scrollPics {
+	margin: 0 auto;
+}
+
+#scrollPics .num li {
+	float: left;
+	text-align: center;
+	line-height: 16px;
+	width: 30px;
+	height: 3px;
+	cursor: pointer;
+	overflow: hidden;
+	margin: 0px 3px;
+	background-color: #fff;
+}
+
+#scrollPics .num li.on {
+	line-height: 16px;
+	width: 30px;
+	height: 3px;
+	margin: 0 3px;
+	border: 0;
+	background-color: #FF7300;
+}
+
+.introduce {
+	width: 1080px;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.introduce #info p {
+	display: inline-block;
+	font: 700 17px '微软雅黑';
+	color: #fff;
+	text-align: center;
+	line-height: 35px;
+}
+
+.introduce #info #info_text {
+	display: inline-block;
+	margin: 50px 10px;
+}
+
+.introduce #info {
+	width: 820px;
+	height: 260px;
+	background-color: #ffa400;
+	float: left;
+	vertical-align: center;
+}
+
+.introduce #pic_baby {
+	width: 260px;
+	height: 260px;
+}

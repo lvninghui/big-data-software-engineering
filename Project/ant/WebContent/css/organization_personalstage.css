@@ -1,0 +1,104 @@
+* {
+	margin: 0 auto;
+}
+
+body {
+	background-color: #fcfcdd;
+}
+
+.table3-0 {
+	border: 1px solid #c6c6c6;
+	height: 528px;
+	width: 540px;
+	background-color: #fff;
+	margin: center;
+	margin-top: 33px;
+}
+
+.table3-0 td {
+	border: 1px solid #d8d8d8;
+	text-align: center;
+	font-size: 14px;
+	color: #505050;
+	height: 46px;
+	width: 133px;
+}
+
+.sty1 {
+	/*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+	border: solid 1px #fff;
+	width: 116px;
+	height: 46px;
+	font-size: 14px;
+	color: #fc7a00;
+	text-align: center;
+	text-align-last: center;
+	/*很关键：将默认的select选择框样式清除*/
+	appearance: none;
+	-moz-appearance: none;
+	/*为下拉小箭头留出一点位置，避免被文字覆盖*/
+	padding-right: 14px;
+}
+
+.sty1:focus {
+	outline: none;
+}
+
+.button {
+	width: 64px;
+	height: 40px;
+	background-color: #fc7a00;
+	border: none;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 6px;
+	margin: center;
+}
+
+.button:focus {
+	outline: none;
+}
+
+.button-submit {
+	width: 64px;
+	height: 40px;
+	background-color: #fc7a00;
+	border: none;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 6px;
+	margin-left: 650px;
+	margin-top: 30px;
+}
+
+.button-submit:focus {
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 16px;
+	border-color: #ccc;
+}
+
+a:hover {
+	background-color: #fc7a00;
+	color: black;
+}
+
+.previous {
+	background-color: #fff;
+	color: black;
+	border-radius: 6px;
+}
+
+.next {
+	background-color: #fff;
+	color: black;
+	border-radius: 6px;
+}
+
+.changecolor {
+	background-color: #fcfcdd;
+}

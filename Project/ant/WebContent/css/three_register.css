@@ -1,0 +1,276 @@
+body {
+	width: auto;
+	height: auto;
+	background: #fcfcdd;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+.redWord {
+	color: red;
+}
+
+.logo {
+	width: 290px;
+	height: 100px;
+	margin: 10px auto;
+	text-align: center;
+	line-height: 100px;
+}
+
+.logo img {
+	width: 290px;
+	height: 100px;
+}
+
+.article {
+	border: 1px solid #fc7a00;
+	margin: 0px auto;
+	width: 520px;
+	margin-bottom: 20px;
+}
+
+.nav {
+	width: 520px;
+	float: left;
+	padding-top: 20px;
+	color: #383838;
+	font-weight: 18px;
+}
+
+.top_tag {
+	cursor: pointer;
+}
+
+.nav_person {
+	float: left;
+	width: 140px;
+	margin-left: 30px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.nav_class {
+	float: left;
+	width: 140px;
+	margin-left: 20px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.nav_org {
+	float: left;
+	width: 140px;
+	margin-left: 20px;
+	margin-right: 30px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.active {
+	color: #fc7a00;
+	border-bottom: 1px solid #fc7a00;
+}
+
+.clear {
+	clear: both;
+}
+
+input::-webkit-input-placeholder {
+	font-size: 16px;
+	color: #a6a6a6;
+}
+
+.normal {
+	margin: 0px auto;
+}
+
+.admitp {text-align：center;
+	
+}
+
+#admitStudentRegister {
+	margin-left: 38px;
+	width: 430px;
+	height: 30px;
+	line-height: 30px;
+	color: red;
+}
+
+.top_id input {
+	margin: 20px 38px 0px 38px;
+	width: 423px;
+	height: 45px;
+	display: inline-block;
+	border: 1px solid #383838;
+	border-radius: 3px;
+	padding-left: 15px;
+}
+
+.top_id p {
+	margin-left: 38px;
+	width: 430px;
+	height: 25px;
+}
+
+.normal input {
+	margin: 0px 40px 0px 40px;
+	width: 423px;
+	height: 45px;
+	display: inline-block;
+	border: 1px solid #383838;
+	border-radius: 3px;
+	padding-left: 15px;
+}
+
+.normal p {
+	margin-left: 38px;
+	width: 430px;
+	height: 25px;
+}
+
+.sex .sex_span {
+	margin: 0px 40px 0px 40px;
+	text-align: center;
+	display: inline-block;
+	width: 60px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 3px;
+	border: 1px solid #383838;
+	background-color: #fff;
+	font-size: 16px;
+	color: #a6a6a6;
+}
+
+.sex_man input {
+	margin-left: 45px;
+}
+
+.sex_woman input {
+	margin-left: 25px;
+}
+
+#sex_msg {
+	margin-left: 38px;
+	width: 430px;
+	height: 25px;
+	display: inline-block;
+}
+
+.textCode input {
+	margin: 0px 0px 0px 40px;
+	width: 300px;
+	height: 45px;
+	border-radius: 3px;
+	display: block;
+	border: 1px solid #383838;
+	padding-left: 15px;
+	float: left;
+}
+
+.textCode img {
+	display: block;
+	width: 100px;
+	height: 45px;
+	float: right;
+	margin: 0px 40px 0px 0px;
+}
+
+#textCode_msg {
+	margin-left: 38px;
+	width: 430px;
+	height: 25px;
+	display: inline-block;
+}
+
+form .regist input {
+	width: 285px;
+	height: 45px;
+	background-color: #fc7a00;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	margin: 0px 25px 20px 40px;
+	/*letter-spacing: 10px;*/
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.regist a {
+	color: #fc7a00;
+	font-weight: 18px;
+	text-decoration: none;
+}
+/*
+班委注册
+*/
+.select_college select {
+	margin: 45px 38px 0px 38px;
+	width: 440px;
+	height: 45px;
+	display: inline-block;
+	border: 1px solid #383838;
+	border-radius: 3px;
+	padding-left: 15px;
+	font-size: 16px;
+	color: #a6a6a6;
+}
+
+.select_college p {
+	margin-left: 38px;
+	width: 430px;
+	height: 25px;
+	display: inline-block;
+}
+
+.select_normal select {
+	margin: 0px 40px 0px 40px;
+	width: 440px;
+	height: 45px;
+	display: inline-block;
+	border: 1px solid #383838;
+	border-radius: 3px;
+	padding-left: 15px;
+	font-size: 16px;
+	color: #a6a6a6;
+}
+
+.select_normal p {
+	margin-left: 38px;
+	width: 430px;
+	height: 25px;
+	display: inline-block;
+}
+/*
+完善信息
+*/
+.msg {
+	height: 75px;
+	line-height: 75px;
+	text-align: center;
+	color: #fc7a00;
+	font-weight: 20px;
+}
+
+.submit input {
+	margin: 85px 40px 65px 40px;
+	width: 440px;
+	height: 45px;
+	background-color: #fc7a00;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	/*letter-spacing: 10px;*/
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+}

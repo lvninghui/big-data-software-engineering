@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 22</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="85.2311075%" cy="43.1736235%" fx="85.2311075%" fy="43.1736235%" r="57.08383%" gradientTransform="translate(0.852311,0.431736),scale(0.802795,1.000000),rotate(89.171659),scale(1.000000,1.870934),translate(-0.852311,-0.431736)" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="7.37022468%"></stop>
+            <stop stop-color="#FFFFFF" offset="30.8454241%"></stop>
+            <stop stop-color="#E4DACC" offset="100%"></stop>
+        </radialGradient>
+        <path d="M13.4184759,10.0792793 C13.9319038,9.50386123 14.3363959,8.8005321 14.565864,8.12815551 C15.071588,6.64630727 15.1653619,5.02460256 13.8387256,2.13799879 C13.3928225,1.01195918 12.8040052,0.0169477188 12.0888706,0.0169477188 C11.373736,0.0169477188 11.7170418,1.7164464 11.2057867,2.06397655 C10.6945315,2.4115067 8.37038152,2.24760997 8.37038152,2.24760997 C8.37038152,2.24760997 7.67288253,-0.227217099 6.91583165,0.0169477188 C6.15878077,0.261112537 6.12446793,2.13211124 5.48584665,2.6376151 C4.81291253,3.17027947 2.85897701,2.50152065 1.07017431,4.52702753 C-0.548123813,6.35946773 -0.270279655,9.73788347 2.28940958,11.2421934 C3.42108977,11.9072732 4.45278794,11.9488861 5.49929781,11.9096432 C6.14169083,11.9142631 7.29082964,11.9189378 9.31102716,11.9189378 C10.6289806,11.9189378 13.5250584,11.8387645 14.06014,11.8387645 C14.3411286,11.7839589 14.8656407,11.546468 14.8656407,10.9801436 C14.8656407,10.4138191 14.4018177,10.0539421 13.9770467,10.0539421 C13.7620148,10.0539421 13.5781355,10.0634921 13.4184759,10.0792793 Z" id="path-2"></path>
+        <radialGradient cx="93.4151182%" cy="0%" fx="93.4151182%" fy="0%" r="124.991166%" gradientTransform="translate(0.934151,0.000000),scale(1.000000,0.680174),rotate(121.006097),scale(1.000000,1.050569),translate(-0.934151,-0.000000)" id="radialGradient-4">
+            <stop stop-color="#FFE400" offset="0%"></stop>
+            <stop stop-color="#FF6500" offset="100%"></stop>
+        </radialGradient>
+        <path d="M14.8747163,6.78248318 C15.0094628,5.60095043 14.7868369,4.1840292 13.8387256,2.12105107 C13.3928225,0.99501146 12.8040052,-2.00672812e-14 12.0888706,-1.24206201e-15 C11.373736,1.75623405e-14 11.7170418,1.69949868 11.2057867,2.04702883 C11.0246806,2.17013728 10.6160839,2.22906949 10.1638944,2.25384458 C9.96000504,3.17711281 9.61711483,5.41009092 10.7557512,6.48839286 C11.8482583,7.52300992 13.7029045,7.48512123 14.8747163,6.78248318 Z" id="path-5"></path>
+        <ellipse id="path-7" cx="1.26099386" cy="1.20714286" rx="1.26099386" ry="1.20714286"></ellipse>
+        <ellipse id="path-9" cx="1.26099386" cy="1.20714286" rx="1.26099386" ry="1.20714286"></ellipse>
+        <linearGradient x1="131.153056%" y1="-51.8478201%" x2="50%" y2="94.9718562%" id="linearGradient-11">
+            <stop stop-color="#FFCC00" offset="0%"></stop>
+            <stop stop-color="#FF7300" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="110.800109%" y1="-75.2900582%" x2="69.120462%" y2="75.7779297%" id="linearGradient-12">
+            <stop stop-color="#FFCC00" offset="0%"></stop>
+            <stop stop-color="#FF7300" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Templates-模板页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="待筛选卡片列表" transform="translate(-304.000000, -712.000000)">
+            <g id="Group-16-Copy-4" transform="translate(280.000000, 688.000000)">
+                <g id="Group-22" transform="translate(24.000000, 24.000000)">
+                    <circle id="Oval-2" fill="#2E2E2E" cx="12" cy="12" r="12"></circle>
+                    <g id="Group-12" transform="translate(4.500000, 6.000000)">
+                        <g id="Group-11">
+                            <g id="Oval">
+                                <mask id="mask-3" fill="white">
+                                    <use xlink:href="#path-2"></use>
+                                </mask>
+                                <use id="Mask" fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
+                                <mask id="mask-6" fill="white">
+                                    <use xlink:href="#path-5"></use>
+                                </mask>
+                                <use id="Combined-Shape" fill="url(#radialGradient-4)" xlink:href="#path-5"></use>
+                            </g>
+                            <g id="Group-9" transform="translate(11.237632, 4.023810)">
+                                <g id="Group-8">
+                                    <g id="Oval-6" transform="translate(0.000000, 0.000000)">
+                                        <mask id="mask-8" fill="white">
+                                            <use xlink:href="#path-7"></use>
+                                        </mask>
+                                        <use id="Mask" fill="#FFD300" xlink:href="#path-7"></use>
+                                        <ellipse fill="#000000" mask="url(#mask-8)" cx="0.993510315" cy="1.4093006" rx="1" ry="1"></ellipse>
+                                    </g>
+                                    <ellipse id="Oval-3" fill="#FFFFFF" cx="1.70458459" cy="0.742857143" rx="1" ry="1"></ellipse>
+                                </g>
+                            </g>
+                            <g id="Group-9" transform="translate(6.628940, 4.023810)">
+                                <g id="Group-8">
+                                    <g id="Oval-6">
+                                        <mask id="mask-10" fill="white">
+                                            <use xlink:href="#path-9"></use>
+                                        </mask>
+                                        <use id="Mask" fill="#FFD300" xlink:href="#path-9"></use>
+                                        <ellipse fill="#000000" mask="url(#mask-10)" cx="0.993510315" cy="1.4093006" rx="1" ry="1"></ellipse>
+                                    </g>
+                                    <ellipse id="Oval-3" fill="#FFFFFF" cx="1.70458459" cy="0.742857143" rx="1" ry="1"></ellipse>
+                                </g>
+                            </g>
+                            <path d="M5.35524891,2.7336635 C5.35524891,2.7336635 4.08581182,2.89543806 3.45183311,3.05431083 C2.8178544,3.21318359 1.48442141,3.59247117 0.589341871,5.1875465 C-0.305737665,6.78262184 1.31690997,9.93764881 3.25620786,9.40462705 C3.96404697,9.25585007 4.51158805,8.41934989 3.96404697,6.36168155 C3.41650589,4.30401321 5.35524891,2.7336635 5.35524891,2.7336635 Z" id="Path-8" fill="url(#linearGradient-11)"></path>
+                        </g>
+                        <path d="M13.4494979,10.0423247 C13.6845811,10.0423247 14.1330457,10.0423247 14.1330457,10.0423247 C14.1330457,10.0423247 14.8986383,10.2510114 14.8986383,11.0247756 C14.8986383,11.7985398 14.1119295,11.9199161 14.1119295,11.9199161 L9.62435536,11.9199161 C9.62435536,11.9199161 11.189419,12.2564174 13.4494979,10.0423247 Z" id="Path-13" fill="url(#linearGradient-12)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
