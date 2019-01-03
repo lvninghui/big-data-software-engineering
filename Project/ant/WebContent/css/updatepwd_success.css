@@ -1,0 +1,45 @@
+html, body {
+	background-color: #fcfcdd;
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.center {
+	width: 1080px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.center_img {
+	width: 240px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 20%;
+}
+
+.center_img img {
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+
+.center_text {
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 550px;
+	height: auto;
+	font-family: "FZShuTi", 方正舒体;
+}
+
+.center_p1 {
+	color: #383838;
+	font-size: 34px;
+	padding-top: 20px;
+	text-align: center;
+}
