@@ -1,0 +1,173 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	font-size: 14px;
+	line-height: 22px;
+	background-color: #fcfcdd
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.toplink {
+	font-size: 15px;
+	color: #ccc;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.currentpage {
+	font-size: 15px;
+	color: #666;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.assembly {
+	width: 1080px;
+	height: 140px;
+	margin-top: 10px;
+}
+
+.breadcrumb {
+	width: 1080px;
+	height: 42px;
+	padding-top: 8px;
+	padding-left: 40px;
+	background-color: #fff;
+}
+/**search*/
+#search {
+	border: 1px solid #fc7a00;
+	border-radius: 3px;
+	width: 452px;
+	height: 48px;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+
+#search input {
+	outline: none;
+	background-color: #fff;
+	width: 368px;
+	height: 46px;
+	transition: .3s linear;
+	padding-left: 15px;
+	font-size: 15px;
+	color: #666;
+	folot: left;
+}
+
+.search input:focus, #search input:focus {
+	width: 368px;
+}
+
+.search button, #search button {
+	width: 80px;
+	height: 46px;
+	display: inline;
+	cursor: pointer;
+	background-color: #fc7a00;
+	border-radius: 2px;
+	font-size: 18px;
+	color: #fff;
+	cursor: pointer;
+	float: right;
+}
+
+.label {
+	width: 80px;
+	height: 40px;
+	font-size: 18px;
+	color: #333;
+	text-shadow: 1px 0px 1px #333;
+	text-align: center;
+	background-color: #ffae48;
+	margin-left: 0px;
+	padding-top: 8px;
+	text-align: center;
+	color: #fff;
+}
+
+.clear {
+	clear: both;
+}
+
+/**conter*/
+.activities_conter {
+	width: 1080px;
+	margin: 10px auto;
+	background-color: #fff;
+}
+
+.activity_object {
+	width: 250px;
+	height: 290px;
+	float: left;
+	margin: 10px;
+	border: 1px solid #eee;
+	background-color: #fff;
+}
+
+.activity_object>a {
+	width: 250px;
+	height: 180px;
+}
+
+.activity_object>a>img {
+	width: 250px;
+	height: 180px;
+}
+
+.activity_object>ul {
+	height: 120px;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.activity_object>ul>li {
+	height: 34px;
+}
+
+.activity_object>ul>li>a {
+	font-size: 22px;
+	color: black;
+}
+
+.activity_object>ul>li>a:hover {
+	font-size: 22px;
+	color: rgb(108, 108, 108);
+}
+
+.activity_object>ul>li>p {
+	font-size: 18px;
+}
+
+#grey {
+	color: #aaa;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+/*页码*/
+.page {
+	margin: 10px auto;
+	text-align: center;
+}
+
+.page a {
+	color: #333;
+}
+
+.lastPage, .nextPage, .pageNo {
+	display: inline-block;
+}

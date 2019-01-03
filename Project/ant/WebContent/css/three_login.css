@@ -1,0 +1,581 @@
+@charset "utf-8";
+
+body {
+	background-color: #e5ecf5;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.l_float {
+	float: left;
+}
+
+.m_float {
+	float: left;
+}
+
+.r_float {
+	float: right;
+}
+
+.l_clear {
+	clear: left;
+	display: block;
+	overflow: hidden;
+	content: "";
+}
+
+.l_float {
+	width: 60px;
+}
+
+.l_float1 {
+	cursor: pointer;
+	color: #fc7a00;
+	margin-top: 20px;
+	margin-left: 10px;
+	float: left;
+	color: #fc7a00;
+}
+
+.r_clear {
+	clear: right;
+	display: block;
+	overflow: hidden;
+	content: "";
+}
+
+.b_clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	content: "";
+}
+
+.show {
+	display: block;
+}
+
+.hidden {
+	display: none;
+}
+
+header {
+	background-color: rgba(255, 255, 255, 0);
+	position: absolute;
+	z-index: 5;
+}
+
+header>nav {
+	width: 100%;
+	margin: 0 auto;
+	/* background-color: orange; */
+	padding: 10px 0;
+}
+
+nav>.nav_logo, nav>.nav_logo>img {
+	height: 100px;
+	position: absolute;
+	left: 150px;
+}
+
+.container>.login_body {
+	width: 100%;
+	height: auto;
+	/*轮播图*/
+}
+
+.littlecon {
+	height: auto;
+	width: 1080px;
+	/* background-color: rgba(255,255,255,0.9);*/
+	position: absolute;
+	z-index: 4;
+	margin: 0 auto;
+	margin-top: 110px;
+	left: 15%
+}
+
+.container>.login_body>#container_img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.container>.login_body>#container_img>#list {
+	position: absolute;
+	z-index: 2;
+	width: 700%;
+	height: 806px;
+}
+
+.container>.login_body>#container_img>#list img {
+	float: left;
+	width: 14.285%;
+	height: 806px;
+}
+
+.container>.login_body>#container_img>#buttons {
+	position: absolute;
+	left: 45%;
+	bottom: 20px;
+	z-index: 3;
+	height: 10px;
+	width: 100px;
+}
+
+.container>.login_body>#container_img>#buttons span {
+	float: left;
+	margin-right: 5px;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	background: #333;
+	cursor: pointer;
+}
+
+.container>.login_body>#container_img>#buttons .on {
+	background: orangered;
+}
+
+.container>.login_body>#container_img>.arrow {
+	position: absolute;
+	top: 180px;
+	z-index: 3;
+	display: none;
+	width: 40px;
+	height: 40px;
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 35px;
+	text-align: center;
+	color: #fff;
+	background-color: RGBA(0, 0, 0, .3);
+	cursor: pointer;
+}
+
+.container>.login_body>#container_img>.arrow:hover {
+	background-color: RGBA(0, 0, 0, .7);
+}
+
+.container>.login_body>#container_img:hover .arrow {
+	display: block;
+}
+
+.container>.login_body>#container_img>#prev {
+	left: 20px;
+}
+
+.container>.login_body>#container_img>#next {
+	right: 20px;
+}
+/**日历*/
+.container>.login_body>.littlecon>.calendar {
+	width: 358px;
+	height: 500px;
+	magin-right: 200px;
+	background-color: rgba(255, 255, 255, 0.75);
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, .1);
+	position: relative;
+	z-index: 4;
+	right: 0%;
+	background-color: rgba(255, 255, 255, 0.75);
+	float: right;
+	border-radius: 8px;
+}
+
+.container>.login_body>.littlecon>.calendar>.title {
+	height: 70px;
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+	position: relative;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.container>.login_body>.littlecon>.calendar>.title>#calendar-title {
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 14px 0 0 0;
+}
+
+.container>.login_body>.littlecon>.calendar>.title>#calendar-year {
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+.container>.login_body>.littlecon>.calendar>.title>#cpre {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 60px;
+	height: 70px;
+}
+
+.container>.login_body>.littlecon>.calendar>.title>#cnext {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 60px;
+	height: 70px;
+}
+
+.body-list>ul {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.body-list>ul>li {
+	list-style: none;
+	/*
+            display:inline-block; 
+            width: 13.3%;
+            */
+	/*100/7 = 14.28%*/
+	display: block;
+	width: 14.28%;
+	float: left;
+	/*规定行高，垂直居中*/
+	height: 36px;
+	line-height: 36px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.orange {
+	color: #fc7a00;
+}
+
+.lightgrey { /*浅灰色显示过去的日期*/
+	color: #a8a8a8;
+}
+
+.darkgrey { /*深灰色显示将来的日期*/
+	color: #565656;
+}
+
+/*日期当天用绿色背景绿色文字加以显示*/
+.orangebox {
+	border: 1px solid #fc7a00;
+	background-color: rgba(252, 252, 211, 0.75);
+}
+
+/*登录界面*/
+.container>.login_body>.littlecon {
+	width: 1080px;
+	height: auto;
+}
+
+.container>.login_body>.littlecon>.login_form {
+	margin-left: 10%;
+	width: 400px;
+	position: relative;
+	left: 0%;
+	z-index: 3;
+	float: left;
+}
+
+.container>.login_body>.littlecon>.login_form>.login_top, .container>.login_body>.littlecon>.login_form>.login_con
+	{
+	background-color: rgba(255, 255, 255, 0.75);
+}
+
+.container>.login_body>.littlecon>.login_form>.login_top {
+	/* padding-bottom: 30px; */
+	padding: 20px 30px 10px 30px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.container>.login_body>.littlecon>.login_form>.login_top>img {
+	height: 40px;
+}
+
+.container>.login_body>.littlecon>.login_form>.login_top>.login_tags {
+	/*    border-bottom: 2px solid #d9d9d9;*/
+	padding: 10px 0 0;
+}
+
+.container>.login_body>.littlecon>.login_form>.login_top>.login_tags {
+	/* margin: 10px 0 20px 0; */
+	
+}
+
+.container>.login_body>.littlecon>.login_form>.login_top>.login_tags>span
+	{
+	padding: 10px;
+	text-align: center;
+	width: 33%;
+	box-sizing: border-box;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.container>.login_body>.littlecon>.login_form>.login_top>.login_tags>.active
+	{
+	border-bottom: 2px solid #fc7a00;
+}
+
+.container>.login_body>.littlecon>.login_form>.login_con hidden,
+	.container>.login_body>.littlecon>.login_form>.login_con {
+	padding: 20px 30px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.container>.login_body>.littlecon>.login_form>.login_con>form>div，
+.container>.login_body>.littlecon>.login_form>.login_con hidden>form>div
+	{
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.container>.login_body>.littlecon>.login_form>.login_con>form>div>img,
+	.container>.login_body>.littlecon>.login_form>.login_con hidden>form>div>img
+	{
+	width: 24px;
+	position: relative;
+	bottom: 35px;
+}
+
+.container>.login_body>.littlecon>.login_form>.login_con>form>div>.tips,
+	.container>.login_body>.littlecon>.login_form>.login_con hidden>form>div>.tips
+	{
+	position: relative;
+	bottom: 0px;
+	font-size: 12px;
+	right: 0;
+	color: #fc7a00;
+}
+
+.container>.login_body>.littlecon>.login_form>.login_con>form>.submit>.tips,
+	.container>.login_body>.littlecon>.login_form>.login_con hidden>form>.submit>.tips
+	{
+	text-align: center;
+	bottom: -3px;
+	left: 0;
+}
+
+.container>.login_body>.littlecon>.login_form>.login_con>form>.submit>a
+	{
+	color: #fc7a00;
+}
+
+.container>.login_body>.littlecon>.login_form>.login_con>form>div>label,
+	.container>.login_body>.littlecon>.login_form>.login_con hidden>form>div>label
+	{
+	font-size: 14px;
+}
+
+.container>.login_body>.littlecon>.login_form>.login_con>form>div>input,
+	.container>.login_body>.littlecon>.login_form>.login_con hidden>form>div>input
+	{
+	display: block;
+	margin-top: 10px;
+}
+
+.container>.login_body>.littlecon>.login_form>.login_con>form>div>input[type=text],
+	.container>.login_body>.littlecon>.login_form>.login_con>form>div>input[type=password],
+	.container>.login_body>.littlecon>.login_form>.login_con>form>div>button[type=submit],
+	.container>.login_body>.littlecon>.login_form>.login_con hidden>form>div>input[type=text],
+	.container>.login_body>.littlecon>.login_form>.login_con hidden>form>div>input[type=password],
+	.container>.login_body>.littlecon>.login_form>.login_con hidden>form>div>button[type=submit]
+	{
+	padding: 0 28px;
+	outline: none;
+	height: 40px;
+	width: 280px;
+	border: none;
+	border-bottom: 2px solid #fc7a00;
+	color: #333;
+	font-size: 16px;
+	/*    position: relative;*/
+}
+
+/*记住密码*/
+
+/**/
+.container>.login_body>.littlecon>.login_form>.login_con>form>div>#auth_code,
+	.container>.login_body>.littlecon>.login_form>.login_con hidden>form>div>#auth_code
+	{
+	width: 60px;
+	font-size: 16px;
+	padding-right: 8px;
+	float: left;
+}
+
+.container>.login_body>.littlecon>.login_form>.login_con>form>div>.auth_code,
+	.container>.login_body>.littlecon>.login_form>.login_con hidden>form>div>.auth_code
+	{
+	position: inherit;
+	height: 42px;
+	margin-top: 10px;
+	margin-left: 8px;
+	width: 100px;
+	height: 40px;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #fc7a00;
+	background-color: #fff;
+	float: left;
+	outline: none;
+}
+
+.container>.login_body>.littlecon>.login_form>.login_con>form>div>button[type=submit],
+	.container>.login_body>.littlecon>.login_form>.login_con hidden>form>div>button[type=submit]
+	{
+	background-color: #fc7a00;
+	width: 340px;
+	border-radius: 50px;
+	border-bottom: none;
+	cursor: pointer;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+}
+
+.container>.login_body>.littlecon>.login_form>.login_con>form>div>button[type=submit]:hover,
+	.container>.login_body>.littlecon>.login_form>.login_con hideen>form>div>button[type=submit]:hover
+	{
+	background-color: rgba(252, 122, 0, .8);
+}
+
+.container>.login_body>.littlecon>.login_form>.login_con>form>div>a,
+	.container>.login_body>.littlecon>.login_form>.login_con hidden>form>div>a
+	{
+	font-size: 12px;
+	line-height: 40px;
+}
+
+.container>.login_body>.littlecon>.login_form>.login_con>.qr_code,
+	.container>.login_body>.littlecon>.login_form>.login_con hidden>.qr_code
+	{
+	text-align: center;
+}
+
+.container>.login_body>.littlecon>.login_form>.login_con>.qr_code>img,
+	.container>.login_body>.littlecon>.login_form>.login_con hidden>.qr_code>img
+	{
+	width: 140px;
+}
+
+.container>.login_body>.littlecon>.login_form>.login_con>.qr_code>p,
+	.container>.login_body>.littlecon>.login_form>.login_con hidden>.qr_code>p
+	{
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+/*.container>.login_body>.login_form>.login_otherAccount{
+    padding: 12px 20px;
+    font-size: 12px;
+    border-top: 1px solid #d9d9d9;
+    background-color: #fafbfc;
+    border-bottom-left-radius: 10px;
+
+}
+.container>.login_body>.login_form>.login_otherAccount>span{
+    margin-right: 4px;
+
+}
+
+.container>.login_body>.login_form>.login_otherAccount>a{
+    margin-right: 2px;
+}
+.container>.login_body>.login_form>.login_otherAccount>a>img{
+    height: 24px;
+    vertical-align: middle;
+}
+*/
+
+/*.container>.login_body>.login_ad{
+    width: 700px;
+    height: 558px;;
+    overflow: hidden;
+    background-image: url('../imgs/timg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    text-align: center;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    box-shadow: 0 0 16px 0px rgba(0, 0, 0, 0.35);
+
+     height: 100%; 
+   
+}
+.container>.login_body>.login_ad>a{
+    
+    border-radius: 50px;
+    position: absolute;
+    bottom: 15.5%;
+    left: 296px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #703EFF;
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #703EFF;
+
+    /* left: 0; */
+/*}
+.container>.login_body>.login_ad>a:hover{
+
+    background-color: #fff;
+    border: 1px solid #703EFF;
+    color: #703EFF;
+}
+.footer{
+    font-size: 12px;
+    padding: 0 10px;
+    text-align: center;
+    margin-top: 32px;
+    /* position: absolute;
+    bottom: 0;
+    left: 50% */
+/* width: 1200px; */
+/* margin: 20px auto; */
+/* position: absolute;
+    bottom: 0 
+}*/
+.footer a:link {
+	color: #999999;
+}
+
+.footer a:visited {
+	color: #999999;
+}
+
+.footer a:hover {
+	color: #5E2FE7;
+}
+
+.footer a:active {
+	color: #999999;
+}
+
+.footer, .footer>p, .footer a {
+	color: #999999;
+	text-decoration: none;
+}
+
+.footer>p {
+	margin: 5px auto 10px;
+}
+
+.footer>a>img {
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 4px;
+}

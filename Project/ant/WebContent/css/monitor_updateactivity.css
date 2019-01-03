@@ -1,0 +1,83 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	width: 1080px;
+	margin: 0 auto;
+	height: auto;
+	background-color: #fcfcdd;
+	margin-top: 20px;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #fc9700;
+}
+
+a:hover {
+	color: #f00;
+}
+
+.center {
+	width: 1080px;
+	height: 700px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.center_submit {
+	width: 1080px;
+	margin: 0 auto;
+	padding-top: 0px;
+	position: absolute;
+	margin-top: 645px;
+}
+
+.center_text {
+	font-size: 20px;
+	color: #fc9700;
+	margin-top: 10px;
+}
+
+.button {
+	margin: 0 auto;
+	margin-left: 45%;
+	margin-bottom: 10px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	background-color: #fc9700;
+	border: 1px solid #fc9700;
+	color: #fff;
+	padding: 8px 18px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 8px;
+	-webkit-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+}
+
+.button:hover {
+	background-color: #fcfcdd;
+	color: #fc9700;
+	border: 1px solid #fc9700;
+	cursor: pointer;
+}
+
+th, td {
+	white-space: nowrap;
+}
+
+div.dataTables_wrapper {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+.grade {
+	width: 50px;
+}
